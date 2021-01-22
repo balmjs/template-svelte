@@ -1,0 +1,21 @@
+{
+  "name": "{{ name }}",
+  "version": "1.0.0",
+  "description": "{{ description }}",
+  "author": "{{ author }}",
+  "scripts": {
+    "dev": "balm",
+    "prod": "balm -p"
+  },
+  "dependencies": {
+    "svelte": "^3.0.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "balm": "^3.10.0",
+    "eslint": "^7.18.0",
+    "eslint-plugin-svelte3": "^3.0.0",
+    "svelte-loader": "3.0.0"
+  },
+  "private": true
+}
